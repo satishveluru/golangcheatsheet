@@ -1,1 +1,21 @@
 
+Go Home Setting :
+
+mkdir -p $HOME/go
+export GOPATH=${HOME}/go
+
+Run:
+go run main.go
+
+Build :
+go build -o hello_world
+
+
+Control Structure :
+
+1.If Else
+2. For Loop
+3.Switch
+4. function and Anonomous Function. ( Has No context within itself)
+5.Closures ( Has a context Within Itself )
+
